@@ -15,3 +15,15 @@ Few bits of information to take away from the figure above: <br>
 
 - This chart is effective because the r-squared value is 0.7149 meaning the coefficient of determination is greater than 0.7. A great way to visualize this is by stating roughly 71.5% of points on a scatter plot would land on the line of best fit (linear regression). Another supporting factor is the p-value being less than 0.05 showing an overall relationship. <br><br>
 
+## Summary Statistics on Suspension Coils <br><br>
+
+My goal was to determine whether the design for the MechaCar suspension coils were meeting company standards. To do this I relied on R to create a couple statistic summary tables from the data provided. <br><br>
+
+![Total Summary](Images/susp_total_summary.PNG) <br>
+*Table 1: Table displaying mean, median, variance, and standard deviation of suspension coil's PSI data that was collected.* <br><br>
+
+![Lot Summary](Images/susp_lot_summary.PNG) <br>
+*Table 2: Mean, median, variance, and standard deviation of suspension coil's PSI based on manufacturing lot number.* <br><br>
+
+MechaCar's design specifications dictated that suspension coils variance must not exceed 100 pounds per square inch. Looking at the tables above, it's clear that overall the suspension coils met design specifications. However, once broken down into their manufacturer lot numbers, we can see that Lots 1 and 2 meet design specifications, but Lot 3 does not. <br><br>
+
